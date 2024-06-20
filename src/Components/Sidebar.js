@@ -11,7 +11,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className="border-2 border-red-100 w-42 text-center m-2 p-2 h-[100%]">
+    <div className="border-2 border-red-100 w-42 text-center m-2 p-2 h-[100%] scroll-b-10">
       <div>
         <ul className="shadow-lg">
           <Link to={"/"}>

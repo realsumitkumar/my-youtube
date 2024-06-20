@@ -20,7 +20,7 @@ const LiveChatsContainer = () => {
           message: generateRandomComment(),
         })
       );
-    }, 5000);
+    }, 2000);
 
     return () => clearInterval(i);
   }, []);

@@ -18,7 +18,7 @@ const VideoContainer = () => {
   return (
     <div className="flex flex-wrap">
       {/* higher order component  */}
-      {videos[0] && <AdVideoCard info={videos[45]} />}
+      {/* {videos[0] && <AdVideoCard info={videos[45]} />} */}
 
       {/* main video loading map function */}
       {videos.map((video) => (

@@ -3,7 +3,6 @@ import { toggleMenu } from "../utils/appSlice";
 import { useEffect, useState } from "react";
 import { YOUTUBE_SEARCH_SUGGESTIONS_API } from "../utils/constants";
 import { cacheResults } from "../utils/searchSlice";
-import { Link } from "react-router-dom";
 
 const Head = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -81,11 +80,13 @@ const Head = () => {
             alt="hamburger-icon"
             src="https://static.vecteezy.com/system/resources/thumbnails/002/292/406/small/hamburger-menu-line-icon-free-vector.jpg"
           />
-          <img
-            className="m-1 p-1"
-            alt="youtube-icon"
-            src="https://st2.depositphotos.com/1102480/6675/i/450/depositphotos_66757783-stock-photo-youtube-logotype-printed-on-paper.jpg"
-          />
+          <a href="/">
+            <img
+              className="m-1 p-1 h-10"
+              alt="youtube-icon"
+              src="https://st2.depositphotos.com/1102480/6675/i/450/depositphotos_66757783-stock-photo-youtube-logotype-printed-on-paper.jpg"
+            />
+          </a>
         </div>
 
         <div className="grid grid-flow-col rounded-xl w-[40rem]">
