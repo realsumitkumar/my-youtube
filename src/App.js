@@ -6,6 +6,8 @@ import Body from "./Components/Body";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainContainer from "./Components/MainContainer";
 import WatchPage from "./Components/WatchPage";
+import Demo from "./Components/Demo";
+import Demo2 from "./Components/Demo2";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -20,6 +22,15 @@ function App() {
         {
           path: "/watch",
           element: <WatchPage />,
+        },
+        {
+          path: "/demo",
+          element: (
+            <>
+              <Demo />
+              <Demo2 />
+            </>
+          ),
         },
       ],
     },
@@ -36,3 +47,5 @@ function App() {
 }
 
 export default App;
+
+//40 mins done
