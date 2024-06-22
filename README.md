@@ -50,7 +50,7 @@ Debouncing with 200ms
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/my-youtube.git
+   git clone https://github.com/realsumitkumar/my-youtube.git
    ```
 2. Navigate to the project directory:
    ```sh
